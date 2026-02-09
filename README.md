@@ -66,7 +66,7 @@ comment_id,user,text,label
 ⚠️ Dataset is anonymized and used for academic/research purposes only.
 
 🧱 Project Architecture
-data/
+``data/
  ├── raw_comments.csv
  ├── train_data.csv
  └── processed_data.csv
@@ -82,31 +82,31 @@ scripts/
  └── api_integration.py
 
 notebooks/
- └── experiments.ipynb
+ └── experiments.ipynb``
 
 ⚙️ Installation
-git clone https://github.com/your-username/multilingual-toxic-comment-classifier.git
-cd multilingual-toxic-comment-classifier
+`git clone https://github.com/your-username/multilingual-toxic-comment-classifier.git
+cd multilingual-toxic-comment-classifier`
 
-pip install -r requirements.txt
+`pip install -r requirements.txt`
 
 ▶️ Usage
 Run Inference on a CSV
 python scripts/inference.py --input data/test_comments.csv
 
 🏋️ Training the Model
-python scripts/train.py \
+``python scripts/train.py \
   --model xlm-roberta-base \
   --epochs 3 \
-  --batch_size 8
+  --batch_size 8``
 
 🔍 Inference
 
 Example:
 
-comment = "तु खूप वाईट आहेस, stop spreading hate"
+``comment = "तु खूप वाईट आहेस, stop spreading hate"
 prediction = classify_comment(comment)
-print(prediction)
+print(prediction)``
 
 
 Output:
