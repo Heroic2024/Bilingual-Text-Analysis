@@ -28,16 +28,12 @@ Label	Description
 0	Non-Toxic
 1	Partially Toxic
 2	Toxic
+
 🛠️ Tech Stack
-
 Python
-
 PyTorch
-
 Hugging Face Transformers
-
 Pandas & NumPy
-
 Scikit-learn
 
 REST APIs (Perspective / Moderation APIs)
